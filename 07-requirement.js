@@ -16,7 +16,7 @@ export const options = {
   duration: '30s',
   thresholds: {
     http_req_failed: ['rate<0.01'],
-    http_req_duration: ['p(95)<1000', 'p(99)<1500'],
+    http_req_duration: ['p(95)<50', 'p(99)<1500'],
   },
 };
 
